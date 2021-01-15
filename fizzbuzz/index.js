@@ -21,6 +21,7 @@ function fizzBuzz(n) {
       // Is the number a multiple of 3?
       console.log('fizz');
     } else if (i % 5 === 0) {
+      // Is the number a multiple of 5?
       console.log('buzz');
     } else {
       console.log(i);
